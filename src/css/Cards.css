@@ -1,0 +1,45 @@
+.rental-link {
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #F7F7F7;
+    margin: auto;
+    padding: 0 15px;
+    max-width: 1280px;
+}
+
+.cards {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.cards-link,
+.cards-link img {
+    width: 340px;
+    height: 340px;
+    border-radius: 10px;
+}
+
+.cards-link {
+    position: relative;
+    margin: 20px;
+  }
+  
+  .cards-link img {
+    object-fit: cover;
+  }
+  
+  .cards-link h2 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+  }
+  
