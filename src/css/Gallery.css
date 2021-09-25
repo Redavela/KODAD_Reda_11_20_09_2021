@@ -15,11 +15,11 @@
 }
 
 .gallery img{
-
     width: 100%;
     border-radius: 25px;
     height: 415px;
     object-fit: cover;
+    transition: opacity 1s;
 }
 
 .fas{
@@ -27,10 +27,17 @@
     top: 50%;
     color: #f1f1f1;
     font-size: 4rem;
+    transition: color 0.5s;
+    transform: translateY(-50%);
 }
 .fa-chevron-left{
     left: 40px;
 }
 .fa-chevron-right{
     right: 40px;
+}
+
+.fas:hover{
+    cursor: pointer;
+    color: #ff6060;
 }

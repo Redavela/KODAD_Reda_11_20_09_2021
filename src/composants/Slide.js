@@ -3,12 +3,16 @@ import '../css/Slide.css'
 
 class Slide extends Component {
     
-    render() {console.log(this);
-        const {index,picture} = this.props
+
+    
+    render() {
+        const {picture, active} = this.props
+
+    
         return (
             
             <div className="gallery">
-                <img key={index} src={picture} alt=''/>
+                <img className={active ? 'visible' : 'hidden'} src={picture} alt=''/>
             </div>
             
         );

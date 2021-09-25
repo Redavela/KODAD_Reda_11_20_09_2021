@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
+import Description from '../composants/Description';
 import Gallery from '../composants/Gallery';
 import { apartments } from '../data/apartments';
 
 class Apartment extends Component {
     
-    // une fois récupérer filtrer les apartments pour récupérer celui qui a le bonne id => find
-    // afficher les info de l'aprtements
 
     
 
@@ -17,6 +16,7 @@ class Apartment extends Component {
         return (
             <div>
                 <Gallery pictures={pictures}  />
+                <Description apartment={apartment} />
             </div>
         );
     }

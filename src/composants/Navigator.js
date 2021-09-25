@@ -7,7 +7,7 @@ class Navigator extends Component {
     render() {       
         const routes = [
             { label: 'Acceuil', path: '/'},
-            { label: 'A propos', path: 'a-propos'}
+            { label: 'A propos', path: '/a-propos'}
         ];
 
         const links = routes.map((route, index) => (
