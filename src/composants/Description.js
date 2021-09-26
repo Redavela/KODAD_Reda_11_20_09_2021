@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './../css/Description.css';
 
 class Description extends Component {
 
@@ -12,35 +13,32 @@ class Description extends Component {
   render () {
     const {apartment} = this.props;
     return (
-      <div>
-        <div>
+      <main className='main-description'>
+        <header className='header-description'>
           <div>
-            <p>{apartment.title}</p>
+            <h2>{apartment.title}</h2>
             <p>{apartment.location}</p>
+          
+            {apartment.tags.map((tag, index) => (
+              
+              <div className='tag' key={index}>{tag}</div>
+    
+            ))} 
           </div>
-          <div>
+          <div className='host-description'>
+          <div className='host'>
             <p>{apartment.host.name}</p>
             <img src={apartment.host.picture} alt="" />
           </div>
-        </div>
-                <div>
-                    <div>
-                    <ul>
-                    {apartment.tags.map((tag, index) => (
-                      
-                      <li key={index}>{tag}</li>
-            
-                    ))}
-                    </ul>
-                    </div>
-                    <div>
-                    {[...Array(5).keys()].map(index => (
-                        <li style={{color: index + 1 <= apartment.rating ? 'red': 'grey'}} key={index}>{index}</li>
-            
-                    ))}
-                    </div>
-                </div>
-      </div>
+            <div className='host-rate'>
+            {[...Array(5).keys()].map(index => (
+                <span className='fas fa-star fill' style={{color: index + 1 <= apartment.rating ? 'red': 'grey'}} key={index}></span>
+    
+            ))}
+            </div>
+            </div>
+        </header>
+      </main>
     );
   }
 }

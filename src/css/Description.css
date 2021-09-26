@@ -1,0 +1,113 @@
+header, main {
+    padding: 10px;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.header-description h2 {
+    color: #ff6060;
+    font-weight: 500;
+    font-size: 2rem;
+}
+  
+.header-description p {
+    color: #ff6060;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+  
+.header-description .tag {
+    margin: 10px 10px 10px 0;
+}
+  
+.host-description {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+  
+.host {
+    display: flex;
+    align-items: center;
+}
+  
+.host p {
+    color: #ff6060;
+    margin-right: 10px;
+}
+  
+.host span {
+    display: block;
+    text-align: right;
+    font-weight: 500;
+}
+  
+.host img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.tag {
+    display: inline-block;
+    background: #ff6060;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+
+.host-rate {
+    min-width: 160px;
+}
+  
+.host-rate span {
+    font-size: 1rem;
+    color: #e3e3e3;
+    margin-right: 5px;
+}
+  
+.host-rate span:last-child {
+    margin-right: 0;
+}
+  
+.host-rate span.fill {
+    color: #ff6060;
+}
+  
+  
+@media screen and (min-width: 768px) {
+.header-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 15px;
+}
+
+.host-description {
+    flex-direction: column;
+}
+
+.host img {
+    width: 64px;
+    height: 64px;
+}
+
+.host span {
+    margin: 5px 0;
+}
+
+.host-rate span {
+    font-size: 1.3rem;
+    margin-right: 10px;
+}
+
+.host-rate span:last-child {
+    margin-right: 0;
+}
+}
+  
