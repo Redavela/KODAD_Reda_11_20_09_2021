@@ -13,7 +13,6 @@ class Description extends Component {
   render () {
     const {apartment} = this.props;
     return (
-      <main className='main-description'>
         <header className='header-description'>
           <div>
             <h2>{apartment.title}</h2>
@@ -38,7 +37,6 @@ class Description extends Component {
             </div>
             </div>
         </header>
-      </main>
     );
   }
 }

@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import Description from '../composants/Description';
+import Dropdown from '../composants/Dropdown';
 import Gallery from '../composants/Gallery';
 import { apartments } from '../data/apartments';
+import './../css/Apartment.css';
 
 class Apartment extends Component {
     
@@ -12,11 +14,18 @@ class Apartment extends Component {
         
         const pathID = this.props.match.params.id
         const apartment = apartments.find(apartment =>  apartment.id === pathID)
-        const {pictures} = apartment
+        const {pictures, description, equipments } = apartment
         return (
             <div>
                 <Gallery pictures={pictures}  />
+                <main className='main-description'>
                 <Description apartment={apartment} />
+                <section className='dropDown-all'>
+                <Dropdown title="Description" content={description} />
+                <Dropdown title="Equipements" content={equipments} />
+                </section>
+                </main>
+
             </div>
         );
     }

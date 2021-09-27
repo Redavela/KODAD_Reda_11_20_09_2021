@@ -38,7 +38,7 @@
     right: 40px;
 }
 
-.fas:hover{
+.container-gallery .fas:hover{
     cursor: pointer;
     color: #ff6060;
 }

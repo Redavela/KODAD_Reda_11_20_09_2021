@@ -1,0 +1,19 @@
+.main-description {
+    padding: 10px;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.dropDown-all{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px){
+
+    .dropDown-all .dropdown {
+        width: 47%;
+    }
+
+}
