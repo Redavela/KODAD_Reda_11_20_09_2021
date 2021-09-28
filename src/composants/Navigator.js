@@ -4,10 +4,6 @@ import './../css/Navigator.css'
 import {Link} from "react-router-dom";
 
 class Navigator extends Component {
-    state = {
-        currentLocation: window.location.pathname
-    };
-
     
     render() {    
         
@@ -17,7 +13,7 @@ class Navigator extends Component {
         ];
 
         const links = routes.map((route, index) => (
-             <li key={index}><Link onClick={() => {}} className={this.state.currentLocation === route.path ? 'toto': ''} to={route.path}>{route.label}</Link></li>
+             <li key={index}><Link to={route.path}>{route.label}</Link></li>
         ))
         
         return (

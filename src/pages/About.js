@@ -13,7 +13,9 @@ class About extends Component {
         return (
             <div>
                 <Header img={img}/>
+                <main className='about-container'>
                 {aboutsDropdown}
+                </main>
             </div>
         )
     }
