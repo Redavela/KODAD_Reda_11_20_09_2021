@@ -5,9 +5,10 @@ class Dropdown extends Component {
     state = {
         toggle : false
     }
+
     toggleElt = ()=>{
         this.setState((oldState) =>({
-            toggle : oldState.toggle ? false : true
+            toggle: !oldState.toggle
         }))
     }
     
@@ -38,7 +39,7 @@ class Dropdown extends Component {
               </p>
             )}
           </div>
-        );
+        )
     }
 }
 
