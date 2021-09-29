@@ -8,9 +8,9 @@
 }
 
 .error-num {
+    margin: 120px auto 0 auto;
     font-size: 7rem;
     font-weight: 700;
-    margin: 180px auto 0 auto;
 }
 
 .error-txt {
@@ -21,7 +21,7 @@
 .error-main a {
     display: block;
     text-align: center;
-    margin-top: 130px;
+    margin-top: 110px;
     color: #ff6060;
 }
 
@@ -31,7 +31,7 @@
 
 @media screen and (min-width: 768px) {
 .error-num {
-    font-size: 14rem;
+    font-size: 12rem;
 }
 
 .error-txt {
