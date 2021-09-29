@@ -1,0 +1,41 @@
+.error-main {
+    color: #ff6060;
+}
+
+.error-main p {
+    display: block;
+    text-align: center;
+}
+
+.error-num {
+    font-size: 7rem;
+    font-weight: 700;
+    margin: 180px auto 0 auto;
+}
+
+.error-txt {
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.error-main a {
+    display: block;
+    text-align: center;
+    margin-top: 130px;
+    color: #ff6060;
+}
+
+.error-main a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+.error-num {
+    font-size: 14rem;
+}
+
+.error-txt {
+    font-size: 1.7rem;
+    margin-top: 20px;
+}
+}
