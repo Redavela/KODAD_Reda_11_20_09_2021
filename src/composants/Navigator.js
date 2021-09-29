@@ -8,7 +8,7 @@ class Navigator extends Component {
     render() {    
         
         const routes = [
-            { label: 'Accueil', path: '/',activeClassName:'nav-active'},
+            { label: 'Accueil', path: '/KODAD_Reda_11_20_09_2021',activeClassName:'nav-active'},
             { label: 'A propos', path: '/a-propos',activeClassName:'nav-active'}
         ];
 

@@ -56,3 +56,14 @@
     }
   }
   
+  @media screen and (max-width: 425px){
+
+    .main-nav img {
+      width: 126px;
+    }
+    .main-nav a {
+      color: #ff6060;
+      font-weight: 500;
+      font-size: 18px;
+    }
+  }
