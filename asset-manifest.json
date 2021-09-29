@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/KODAD_Reda_11_20_09_2021/static/css/main.6ab4eedc.chunk.css",
-    "main.js": "/KODAD_Reda_11_20_09_2021/static/js/main.7734d9f0.chunk.js",
-    "main.js.map": "/KODAD_Reda_11_20_09_2021/static/js/main.7734d9f0.chunk.js.map",
+    "main.js": "/KODAD_Reda_11_20_09_2021/static/js/main.c69beeae.chunk.js",
+    "main.js.map": "/KODAD_Reda_11_20_09_2021/static/js/main.c69beeae.chunk.js.map",
     "runtime-main.js": "/KODAD_Reda_11_20_09_2021/static/js/runtime-main.2ea5ac5c.js",
     "runtime-main.js.map": "/KODAD_Reda_11_20_09_2021/static/js/runtime-main.2ea5ac5c.js.map",
     "static/js/2.c6ce2212.chunk.js": "/KODAD_Reda_11_20_09_2021/static/js/2.c6ce2212.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.2ea5ac5c.js",
     "static/js/2.c6ce2212.chunk.js",
     "static/css/main.6ab4eedc.chunk.css",
-    "static/js/main.7734d9f0.chunk.js"
+    "static/js/main.c69beeae.chunk.js"
   ]
 }
