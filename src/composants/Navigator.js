@@ -1,19 +1,19 @@
 import { Component } from 'react';
 import logo from './../assets/logo.png';
 import './../css/Navigator.css'
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 class Navigator extends Component {
     
     render() {    
         
         const routes = [
-            { label: 'Acceuil', path: '/'},
-            { label: 'A propos', path: '/a-propos'}
+            { label: 'Accueil', path: '/',activeClassName:'nav-active'},
+            { label: 'A propos', path: '/a-propos',activeClassName:'nav-active'}
         ];
 
         const links = routes.map((route, index) => (
-             <li key={index}><Link to={route.path}>{route.label}</Link></li>
+             <li key={index}><NavLink exact to={route.path} activeClassName={route.activeClassName} >{route.label}</NavLink></li>
         ))
         
         return (

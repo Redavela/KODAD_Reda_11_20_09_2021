@@ -28,6 +28,10 @@
   .main-nav a:hover {
     text-decoration: underline;
   }
+
+  .nav-active {
+    text-decoration: underline;
+  }
   
   .main-nav li:nth-child(2) {
     margin-left: 20px;
