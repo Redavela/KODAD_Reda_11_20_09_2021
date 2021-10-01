@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/KODAD_Reda_11_20_09_2021/static/css/main.6ab4eedc.chunk.css",
-    "main.js": "/KODAD_Reda_11_20_09_2021/static/js/main.7ce3319f.chunk.js",
-    "main.js.map": "/KODAD_Reda_11_20_09_2021/static/js/main.7ce3319f.chunk.js.map",
-    "runtime-main.js": "/KODAD_Reda_11_20_09_2021/static/js/runtime-main.2ea5ac5c.js",
-    "runtime-main.js.map": "/KODAD_Reda_11_20_09_2021/static/js/runtime-main.2ea5ac5c.js.map",
-    "static/js/2.c6ce2212.chunk.js": "/KODAD_Reda_11_20_09_2021/static/js/2.c6ce2212.chunk.js",
-    "static/js/2.c6ce2212.chunk.js.map": "/KODAD_Reda_11_20_09_2021/static/js/2.c6ce2212.chunk.js.map",
-    "static/js/3.1aaf54f0.chunk.js": "/KODAD_Reda_11_20_09_2021/static/js/3.1aaf54f0.chunk.js",
-    "static/js/3.1aaf54f0.chunk.js.map": "/KODAD_Reda_11_20_09_2021/static/js/3.1aaf54f0.chunk.js.map",
+    "main.js": "/KODAD_Reda_11_20_09_2021/static/js/main.d0545341.chunk.js",
+    "main.js.map": "/KODAD_Reda_11_20_09_2021/static/js/main.d0545341.chunk.js.map",
+    "runtime-main.js": "/KODAD_Reda_11_20_09_2021/static/js/runtime-main.05c7ca92.js",
+    "runtime-main.js.map": "/KODAD_Reda_11_20_09_2021/static/js/runtime-main.05c7ca92.js.map",
+    "static/js/2.7877ed0f.chunk.js": "/KODAD_Reda_11_20_09_2021/static/js/2.7877ed0f.chunk.js",
+    "static/js/2.7877ed0f.chunk.js.map": "/KODAD_Reda_11_20_09_2021/static/js/2.7877ed0f.chunk.js.map",
+    "static/js/3.5cf481a7.chunk.js": "/KODAD_Reda_11_20_09_2021/static/js/3.5cf481a7.chunk.js",
+    "static/js/3.5cf481a7.chunk.js.map": "/KODAD_Reda_11_20_09_2021/static/js/3.5cf481a7.chunk.js.map",
     "index.html": "/KODAD_Reda_11_20_09_2021/index.html",
     "static/css/main.6ab4eedc.chunk.css.map": "/KODAD_Reda_11_20_09_2021/static/css/main.6ab4eedc.chunk.css.map",
-    "static/js/2.c6ce2212.chunk.js.LICENSE.txt": "/KODAD_Reda_11_20_09_2021/static/js/2.c6ce2212.chunk.js.LICENSE.txt",
+    "static/js/2.7877ed0f.chunk.js.LICENSE.txt": "/KODAD_Reda_11_20_09_2021/static/js/2.7877ed0f.chunk.js.LICENSE.txt",
     "static/media/img1.09ec05db.png": "/KODAD_Reda_11_20_09_2021/static/media/img1.09ec05db.png",
     "static/media/img2.48994d58.png": "/KODAD_Reda_11_20_09_2021/static/media/img2.48994d58.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2ea5ac5c.js",
-    "static/js/2.c6ce2212.chunk.js",
+    "static/js/runtime-main.05c7ca92.js",
+    "static/js/2.7877ed0f.chunk.js",
     "static/css/main.6ab4eedc.chunk.css",
-    "static/js/main.7ce3319f.chunk.js"
+    "static/js/main.d0545341.chunk.js"
   ]
 }
