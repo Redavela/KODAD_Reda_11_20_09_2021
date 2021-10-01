@@ -21,7 +21,7 @@ class App extends Component {
       <Router>
         <Navigator currentPath={window.location.pathname} />  
         <Switch>
-            <Route path="/KODAD_Reda_11_20_09_2021" component={Home} exact/>
+            <Route path="/" component={Home} exact/>
             <Route path="/a-propos" component={About} exact/>
             <Route path="/apartment/:id" component={Apartment} exact/>
             <Route component={Error} />
