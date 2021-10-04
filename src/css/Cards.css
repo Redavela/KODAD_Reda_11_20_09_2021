@@ -42,4 +42,14 @@
     font-weight: 500;
     color: #fff;
   }
-  
+ 
+@media screen and (max-width: 768px){
+
+  .cards-link,
+  .cards-link img {
+    width: 325px;
+    height: 255px;
+    border-radius: 10px;
+  }
+
+}
